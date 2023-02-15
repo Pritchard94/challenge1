@@ -329,4 +329,222 @@ footer .bottom .text p{
     margin-bottom: 5px;
 }
 
+/* RESPONSIVE */
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 595px) {
+    .section1 .bg-img{
+        display: none;
+    }
+    .section1{
+        height: fit-content;
+        width: 100%;
+    }
+    .section1 .text h1{
+        color:#fff;
+        font-size: 64px;
+        font-weight: 700;
+        margin-top:200px;
+        width:430px
+    }
+    .section1 .text p{
+        font-family: 'PT Serif', serif;
+        font-size: 20px;
+        font-weight: 400;
+        width:500px;
+    }
+    .get-started{
+        display: grid;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .get-started input{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .more{
+        display: flex;
+        margin-top: 100px;
+    }
+    .section2{
+        display: flex;
+        padding: 65px 40px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .section2 img{
+        margin-bottom: 15px;
+    }
+    .section3{
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0px 40px;
+        width: 100%;
+    }
+    .section4{
+        background-color:#F8F8F8;
+        padding:30px 40px;
+        display: grid;
+        /* align-items: center; */
+        width: 100%;
+    }
+    .section4 img{
+        width:100%;
+        margin-bottom: 20px;
+    }
+    .section4 .right-text h2, .section5 .right-text h2, .section6 h2{
+        font-size: 30px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;  
+        text-align: center;
+    }
+    .section4 .right-text p, .section5 .right-text p{
+        text-align: center;
+        font-size: 16px;
+    }
+    .section4 button, .section5 button{
+        width: 100%;
+        font-size: 16px;
+    }
+    .section5{
+        display: grid;
+        padding-top: 30px;
+        width: 100%;
+    }
+    .section5 img{
+       display: none;
+    }
+    .section6{
+        padding-top: 30px;
+        width: 100%;
+    }
+    .section6 p{
+        font-size: 13px;
+    }
+    .section6 .cards{
+        display: grid;
+    }
+    .section6 .card:nth-of-type(1){
+        margin-bottom: 30px;
+    }
+    footer{
+        padding:40px 0px;
+    }
+    footer .top .box{
+        display: grid;
+        justify-content: center;
+    }
 
+    footer .bottom{
+        display: grid;
+        margin-left: 40px;
+       grid-template-columns: repeat(3, 1fr);
+      
+    }
+    footer .bottom .text:nth-of-type(4){
+        margin-top: 20px;
+    }
+    footer .bottom img{
+        margin-top: 20px;
+    }
+}
+
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ /* @media only screen and (min-width: 600px) {
+    .section1 .bg-img{
+        display: none;
+    }
+    .section1{
+        width: 100%;
+    }
+    .section1 .get-started{
+        display: flex;
+    }
+    .section1 .text{
+        width:100%;
+    }
+    .section1 .text p{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .get-started{
+        margin-bottom: 10px;
+    }
+    .section2{
+        display: flex;
+        justify-content: space-between;
+        padding: 65px 40px;
+    }
+    .section2 img{
+        width: 100%;
+        margin-right: 30px;
+    }
+    .section3{
+        display: flex; 
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .section3 .lorem img{
+        width:25px;
+    }
+    .section3 .lorem h4{
+        font-size: 30px;
+    }
+    .section3 .lorem p{
+        font-size: 16px;
+        width:auto;
+    }
+    .section4{
+        display: grid;
+        justify-content: center;
+        padding: 40px 40px;
+    }
+    .section4 .right-text{
+        display: grid;
+    }
+
+    .section4 img{
+        margin-bottom: 30px;
+        width: 100%;
+        text-align: center;
+   
+    }
+    .section4 .right-text h2,  .section5 .right-text h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .section4 .right-text p,  .section5 .right-text p{
+        text-align: center;
+    }
+
+    .section5{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .section5 button{
+        width: 100%;
+    }
+    .section6{
+        display: grid;
+    }
+    .section6 .cards .card{
+        padding: 20px;
+
+    }
+    footer{
+        display: flex;
+    }
+
+
+
+ }
+ 
+ Medium devices (landscape tablets, 768px and up)
+ @media only screen and (min-width: 768px) {...}
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {...}
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {...}  */
