@@ -15,7 +15,7 @@ header, header nav ul{
     align-items: center;
     justify-content: space-between;
 }
-header nav ul li{
+header nav ul li {
     margin:0px 15px 0px 15px;
     color:#fff;
     font-size: 18px;
