@@ -33,6 +33,12 @@ header nav ul li button{
     color: #fff;
     border: none;
     border-radius:3px;
+    transition: .5s all;
+}
+header nav ul li button:hover{
+    background-color: #fff;
+    color:#5558DB;
+    transform: translateY(-30%);
 }
 .section1 .text{
     z-index: 2;
